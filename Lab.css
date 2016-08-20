@@ -33,10 +33,6 @@ div {
 #linebreak{
     border: 2px solid black;
 }
-#line{
-    border: 1px solid black;
-}
-
 
 li{
     display: inline;
@@ -51,10 +47,15 @@ li a{
 
 a:hover{
     color: lightskyblue;
-
 }
-
-
+a:active{  
+    color:yellow; 
+    background-color:transparent; 
+}
+a:link{
+    color:green; 
+    background-color:transparent;
+}
 #text{
     text-align: center;
 }
